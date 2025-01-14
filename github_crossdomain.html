@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Letro -->
+    <script>
+      window.__letroUgcGadget = window.__letroUgcGadget || {};
+      __letroUgcGadget.advertiser_id = 1466;
+      __letroUgcGadget.auto_linker = true;
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://letro.jp/tags/js/letro.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "letro-jssdk");
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        var id = "letro-review-js";
+        var sid = "letro-review-style";
+        if (document.getElementById(id)) {
+          return;
+        }
+        var ram = new Date().getTime();
+        var lrjs = document.createElement("script");
+        lrjs.id = id;
+        lrjs.src = "https://letro.jp/tags/js/letro-review.js?v=" + ram;
+        var lrs = document.createElement("link");
+        lrs.id = sid;
+        lrs.rel = "stylesheet";
+        lrs.href = "https://letro.jp/tags/css/letro-review.css?v=" + ram;
+        document.body.appendChild(lrjs);
+        document.head.appendChild(lrs);
+        var ltag = document.createElement("div");
+        ltag.setAttribute("class", "__letro-review-tag");
+        ltag.setAttribute("data-ec-site-id", "660a4340ec682");
+        document.body.appendChild(ltag);
+      });
+    </script>
+
+    <link rel="stylesheet" href="../style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LetroTest</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <a href="https://charming-llama-5bdb9b.netlify.app/">＜戻る</a>
+      <div class="container">
+        <p class="middle_text">この下にLetro-markerがあります！</p>
+        <div
+          id="letro-marker"
+          style="
+            margin: 0 !important;
+            padding: 0 !important;
+            position: static !important;
+          "
+        ></div>
+        <a class="conversion_button" href="form.html">今すぐクリック!</a>
+      </div>
+    </div>
+  </body>
+</html>
